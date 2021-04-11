@@ -18,19 +18,30 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Your awesome title
-email: your-email@example.com
+logo: "./clonos-web-logo.png"
+title: Clonos
+email: pmfsilvestre@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+  Clonos is a performant and flexible approach to fault tolerance in 
+  distributed stream processing systems based on causal logging which achieves
+  high-availability and consistency.
+baseurl: "/" # the subpath of your site, e.g. /blog
+#url: "http://delftdata.github.io/clonos-web" # the base hostname & protocol for your site, e.g. http://example.com
+url: ""
+twitter_username: pmfsilvestre
+github_username:  PSilvestre
+
+permalink: pretty
+
+back_to_top: true
+back_to_top_text: "Back to top"
+
+favicon.ico: "./favicon.ico"
+favicon_ico: "./favicon.ico"
 
 # Build settings
-theme: minima
+theme: just-the-docs
+color_scheme: clonos
 plugins:
   - jekyll-feed
 
@@ -53,3 +64,23 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+#
+
+search_enabled: true
+
+
+aux_links:
+  "Clonos on GitHub":
+    - "//github.com/delftdata/Clonos"
+  "Download the paper":
+    - "http://asterios.katsifodimos.com/assets/publications/clonos-sigmod2021.pdf"
+
+# Makes Aux links open in a new tab. Default is false
+aux_links_new_tab: true
+
+footer_content: "Copyright &copy; 2021-2021 TU Delft - Web Information Systems."
+
+ga_tracking: G-K86Z1TDMWL
+ga_tracking_anonymize_ip: true
+
+# TODO collections

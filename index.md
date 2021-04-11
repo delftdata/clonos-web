@@ -60,6 +60,13 @@ assumptions on the deterministic nature of operators.
 
 ## Repositories
 
+[Clonos](https://github.com/delftdata/Clonos): Contains the system implementation
+
+[Beam-Clonos](https://github.com/delftdata/beam): A fork of Apache Beam containing a Clonos runner used for benchmarking with the NEXMark implementation.
+
+[Test Scripts](https://github.com/delftdata/flink-test-scripts): Scripts used for running and coordinating experiments, measuring end-to-end latency and throughput.
+
+
 ## Cite Clonos
 
 ```

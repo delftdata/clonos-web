@@ -26,8 +26,8 @@ description: >- # this means to ignore newlines until "baseurl:"
   distributed stream processing systems based on causal logging which achieves
   high-availability and consistency.
 baseurl: "/" # the subpath of your site, e.g. /blog
-url: "http://delftdata.github.io/clonos-web" # the base hostname & protocol for your site, e.g. http://example.com
-#url: ""
+#url: "http://delftdata.github.io/clonos-web" # the base hostname & protocol for your site, e.g. http://example.com
+url: ""
 twitter_username: pmfsilvestre
 github_username:  PSilvestre
 

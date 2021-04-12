@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-logo: "./clonos-web-logo.png"
+logo: "clonos-web-logo.png"
 title: Clonos
 email: pmfsilvestre@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
@@ -26,7 +26,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   distributed stream processing systems based on causal logging which achieves
   high-availability and consistency.
 baseurl: "/" # the subpath of your site, e.g. /blog
-url: "http://delftdata.github.io/clonos-web" # the base hostname & protocol for your site, e.g. http://example.com
+url: "http://delftdata.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 #url: ""
 twitter_username: pmfsilvestre
 github_username:  PSilvestre

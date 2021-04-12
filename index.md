@@ -1,6 +1,7 @@
 ---
 title: Home
 layout: home
+nav_order: 1
 ---
 # Clonos: Consistent Causal Recovery for Highly-Available Streaming Dataflows
 
@@ -56,15 +57,6 @@ assumptions on the deterministic nature of operators.
     <a href="http://asterios.katsifodimos.com/"><img src="asterios_katsifodimos.jpg" height="100" width="100" style="border-radius:50%"/></a>
     <figcaption class="caption" style="display:block">Asterios Katsifodimos <br>TU Delft</figcaption>
 </figure>
-
-
-## Repositories
-
-[Clonos](https://github.com/delftdata/Clonos): Contains the system implementation
-
-[Beam-Clonos](https://github.com/delftdata/beam): A fork of Apache Beam containing a Clonos runner used for benchmarking with the NEXMark implementation.
-
-[Test Scripts](https://github.com/delftdata/flink-test-scripts): Scripts used for running and coordinating experiments, measuring end-to-end latency and throughput.
 
 
 ## Cite Clonos

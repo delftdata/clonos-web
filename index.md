@@ -65,6 +65,8 @@ assumptions on the deterministic nature of operators.
 @article{silvestre2021clonos,
   title={Clonos: Consistent Causal Recovery for Highly-Available Streaming Dataflows},
   author={Silvestre, Pedro F and Fragkoulis, Marios and Spinellis, Diomidis and Katsifodimos, Asterios},
+  booktitle = {Proceedings of the 2021 ACM SIGMOD International Conference on Management of Data},
+  series = {SIGMOD '21},
   year={2021}
 }
 ```
